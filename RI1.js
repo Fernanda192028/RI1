@@ -56,16 +56,13 @@ const personagem3 =  {
 }
 
 
-
-
 const herois = [personagem1,personagem2,personagem3]
 
 
-console.log("--- INICIANDO TORNEIO DE COMPARAÇÕES =) ---\n");
-
+console.log("--- INICIANDO TORNEIO DE COMPARAÇÕES ---\n");
+console.log("=)")
 
 //força 
-
 for(i=0; i< herois.length; i++){
   for (let j = i + 1; j < herois.length; j++){
     let lutador1 = herois[i];
@@ -114,9 +111,6 @@ for(i=0; i< herois.length; i++){
  }
 }
 
-
-
-
 // resistencia
 
 for(i=0; i< herois.length; i++){
@@ -142,7 +136,6 @@ for(i=0; i< herois.length; i++){
    }
  }
 }
-
 
 
   
