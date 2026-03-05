@@ -78,7 +78,7 @@ for(i=0; i< herois.length; i++){
    if (lutador1.forca < lutador2.forca){
       console.log(`${lutador2.codinome} VENCE em força!`);
       
-   }else if(lutador2.forca > lutador1.forca){
+   } else if(lutador1.forca > lutador2.forca){
       console.log(`${lutador1.codinome} VENCE em força!`);
    } else{
       console.log("Empate")
